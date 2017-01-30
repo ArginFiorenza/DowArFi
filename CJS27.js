@@ -1,0 +1,1 @@
+$(&quot;img.label_thumb&quot;).each(function () {    $(this).attr(&quot;src&quot;, $(this).attr(&quot;src&quot;).replace(/\/s[0-9]+(\-c)?\//, &quot;/w350-h175-c/&quot;)) });
