@@ -1,0 +1,3 @@
+jQuery(document).ready(function(){var t=222,e=495;jQuery(window).scroll(function(){jQuery(this).scrollTop()&gt;t?jQuery(&quot;.jiul-back-to-top&quot;).fadeIn(e):jQuery(&quot;.jiul-back-to-top&quot;).fadeOut(e)}),jQuery(&quot;.jiul-back-to-top&quot;).click(function(t){return t.preventDefault(),jQuery(&quot;html, body&quot;).animate({scrollTop:0},e),!1})});
+$(document).ready(function() {$(&#39;ul#related-summary li img&#39;).attr(&#39;src&#39;, function(i, src) 
+{return src.replace( &#39;s72-c&#39;, &#39;w200-h115-c&#39; );});});
